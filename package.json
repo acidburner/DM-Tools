@@ -1,0 +1,15 @@
+{
+  "name": "dm-tools",
+  "version": "0.0.1",
+  "description": "Small Websocket based tool for players and a DM to connect to. Allows players and a DM to roll dice, and message each other, both privately and publically.",
+  "main": "Client.js",
+  "dependencies": {
+    "ws": "^3.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeff Kelly",
+  "license": "MIT"
+}
