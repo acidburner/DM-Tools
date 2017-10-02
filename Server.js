@@ -1,6 +1,6 @@
 const WebSocket = require('ws');
 
-const ws = new WebSocket('ws://localhost/');
+const ws = new WebSocket('ws://localhost/dmtools');
 
 ws.on('open', function open() {
     console.log('connected');
